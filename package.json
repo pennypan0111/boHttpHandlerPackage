@@ -7,12 +7,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/AiHttpHandler.umd.cjs",
-  "module": "./dist/AiHttpHandler.js",
+  "main": "./dist/BOHttpHandler.umd.cjs",
+  "module": "./dist/BOHttpHandler.js",
   "exports": {
     ".": {
-      "import": "./dist/AiHttpHandler.js",
-      "require": "./dist/AiHttpHandler.umd.cjs"
+      "import": "./dist/BOHttpHandler.js",
+      "require": "./dist/BOHttpHandler.umd.cjs"
     }
   },
   "scripts": {

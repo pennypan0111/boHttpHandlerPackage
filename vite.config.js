@@ -25,14 +25,14 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: 'src/lib/AiHttpHandler.js',
-      name: 'AiHttpHandler',
-      fileName: 'AiHttpHandler'
+      entry: 'src/lib/BOHttpHandler.js',
+      name: 'BOHttpHandler',
+      fileName: 'BOHttpHandler'
     },
     rollupOptions: {
       external: ['vue'],
       input: {
-        main: 'src/lib/AiHttpHandler.js'
+        main: 'src/lib/BOHttpHandler.js'
       },
       output: {
         globals: {
