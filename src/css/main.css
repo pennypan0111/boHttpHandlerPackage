@@ -1,0 +1,47 @@
+/*------------- ElNotification success 成功狀態 -------------*/
+.ElNotification_success.el-notification{
+  border: #f0f9eb;
+  background-color: #e1f3d8;
+}
+.ElNotification_success .el-notification__title{
+  color: #67c23a;
+}
+.ElNotification_success .el-notification__content{
+  color: #67c23a;
+}
+
+/*------------- ElNotification warning 警告狀態 -------------*/
+.ElNotification_warning.el-notification{
+  border: #fdf6ec;
+  background-color: #faecd8;
+}
+.ElNotification_warning .el-notification__title{
+  color: #e6a23c;
+}
+.ElNotification_warning .el-notification__content{
+  color: #e6a23c;
+}
+
+/*------------- ElNotification info 一般狀態 -------------*/
+.ElNotification_info.el-notification{
+  border: #f4f4f5;
+  background-color: #e9e9eb;
+}
+.ElNotification_info .el-notification__title{
+  color: #909399;
+}
+.ElNotification_info .el-notification__content{
+  color: #363636;
+}
+
+/*------------- ElNotification error 錯誤狀態 -------------*/
+.ElNotification_error.el-notification{
+  border: #fef0f0;
+  background-color: #fde2e2;
+}
+.ElNotification_error .el-notification__title{
+  color: #f56c6c;
+}
+.ElNotification_error .el-notification__content{
+  color: #f56c6c;
+}
